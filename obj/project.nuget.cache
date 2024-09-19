@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "Zrfv8ZpQOAE=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jensh\\OneDrive\\Skrivebord\\Skole\\UiA høst 2024\\Kodeprosjekt\\Gruppe5-nettside\\Gruppe5-nettside\\Gruppe5-nettside.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jensh\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.21.0\\microsoft.visualstudio.azure.containers.tools.targets.1.21.0.nupkg.sha512"
+  ],
+  "logs": []
+}
