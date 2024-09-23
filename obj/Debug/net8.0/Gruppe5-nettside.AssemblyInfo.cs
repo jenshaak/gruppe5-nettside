@@ -15,7 +15,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Gruppe5-nettside")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5b3c5589902e0f1e54a3ae3cefcabf0f56b837c4")]
 [assembly: System.Reflection.AssemblyProductAttribute("Gruppe5-nettside")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Gruppe5-nettside")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
