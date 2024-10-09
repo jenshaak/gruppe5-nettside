@@ -1,4 +1,4 @@
-namespace Gruppe5_nettside.Models
+namespace KartverketGruppe5.Models
 {
     public class ErrorViewModel
     {

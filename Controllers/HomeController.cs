@@ -1,21 +1,60 @@
-using Gruppe5_nettside.Models;
+using KartverketGruppe5.Models;
 using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
 
-namespace Gruppe5_nettside.Controllers
+namespace KartverketGruppe5.Controllers
 {
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
+
+        private static List<PositionModel> positions = new List<PositionModel>();
 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
 
+        [HttpGet]
         public IActionResult Index()
         {
             return View();
+        }
+
+        [HttpGet]
+        public ViewResult RegistrationForm()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public ViewResult RegistrationForm(UserData userData)
+        {
+            return View("Overview", userData);
+        }
+
+        [HttpGet]
+        public IActionResult CorrectMap()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult CorrectMap(PositionModel model)
+        {
+            if (ModelState.IsValid)
+            {
+                positions.Add(model);
+
+                return View("CorrectionOverview", positions);
+            }
+            return View();
+        }
+
+        [HttpGet]
+        public IActionResult CorrectionOverview()
+        {
+            return View(positions);
         }
 
         public IActionResult Privacy()
