@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/KartverketGruppe5.props" />
+</Project>
