@@ -8,18 +8,18 @@ namespace KartverketGruppe5.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        private static List<PositionModel> positions = new List<PositionModel>();
+        private static List<PositionModel> positions = new List<PositionModel>();   
 
         public HomeController(ILogger<HomeController> logger)
         {
             _logger = logger;
         }
 
-        [HttpGet]
         public IActionResult Index()
         {
             return View();
         }
+       
 
         [HttpGet]
         public ViewResult RegistrationForm()

@@ -425,24 +425,27 @@
     ]
   },
   "packageFolders": {
-    "/Users/simenholmen/.nuget/packages/": {}
+    "C:\\Users\\ingri\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/simenholmen/Downloads/KartverketGruppe5/KartverketGruppe5.csproj",
+      "projectUniqueName": "C:\\Repo\\gruppe5-nettside\\KartverketGruppe5.csproj",
       "projectName": "KartverketGruppe5",
-      "projectPath": "/Users/simenholmen/Downloads/KartverketGruppe5/KartverketGruppe5.csproj",
-      "packagesPath": "/Users/simenholmen/.nuget/packages/",
-      "outputPath": "/Users/simenholmen/Downloads/KartverketGruppe5/obj/",
+      "projectPath": "C:\\Repo\\gruppe5-nettside\\KartverketGruppe5.csproj",
+      "packagesPath": "C:\\Users\\ingri\\.nuget\\packages\\",
+      "outputPath": "C:\\Repo\\gruppe5-nettside\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/Users/simenholmen/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\ingri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
       ],
       "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
@@ -494,7 +497,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.401/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.401/PortableRuntimeIdentifierGraph.json"
       }
     }
   }
